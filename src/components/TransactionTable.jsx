@@ -64,7 +64,7 @@ function TransactionTable({ transactions = [] }) {
                     <th>
                         <input
                             type="text"
-                            placeholder="Search in results"
+                            placeholder="🔍 Search in results"
                             value={searchTerm}
                             onChange={(e) => setSearchTerm(e.target.value)}
                         />
